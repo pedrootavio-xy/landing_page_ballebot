@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, hsl(350, 15%, 16%) 16.62%, hsl(11, 27%, 44%) 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7em;
+    border-bottom: solid #FFF2E7 0.2px;
+}
+
+.cabecalho-imagem {
+    height: 62px;
+    width: 62px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+}
+
+.cabecalho-menu-item {
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3.5em;
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.conteudo-texto-titulo {
+    font-size: 4em;
+    font-family: "Righteous", sans-serif;
+    color: #FFF2E7;
+}
+
+.conteudo-texto-paragrafo {
+    font-size: 1.3em;
+    font-family: "Sarala", sans-serif;
+    color: #ECD6C4;
+}
+
+.conteudo-botao {
+    font-family: "Sarala", sans-serif;
+    font-size: 1.1em;
+    width: 185px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #ECD6C4;
+}
+
+.conteudo-imagem {
+    width: 394.13px;
+    height: 429.31px;
+}
+
+.conteudo-secundario-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1em;
+    margin-bottom: 3.5em;
+}
+
+.conteudo-secundario-texto-titulo {
+    font-family: "Righteous", sans-serif;
+    font-size: 1.3em;
+    color: #FFF2E7;
+    font-weight: 400;
+    padding-bottom: 1.5em;
+    padding-top: 3.5em;
+    border-top: solid 0.2px #ECD6C4;
+}
+
+.conteudo-secundario-texto-paragrafo {
+    font-family: "Sarala", sans-serif;
+    font-size: 1em;
+    color: #ECD6C4;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border-top: solid 0.2px #ECD6C4;
+    padding: 1em;
+}
+
+.rodape-imagem {
+    width: 300px;
+    height: 100px;
+}
